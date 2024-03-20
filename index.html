@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <script src="./code.js"></script>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="left">
+    <img id="background" src="./Background.gif" alt="">
+    <div id="logo">
+        <img src="./logo.png" alt="">
+    </div></div>
+    <div id="right">
+        <div id="writing">
+    <p id="first_writing">This is not a real online service!<br><br> You know you need something like this in your life
+        to <br><br>help you realize your deepest dreams.<br><br>
+        Sign up now to get started.
+    </p>
+    <p id="second_writing">You know you want to.</p>
+        </div>
+    <div id="form_container">
+        <form action="">
+            <div id="first_line"><div class="line" id="firstname">
+                <label for="first_name">First Name</label>
+                <input class="input" type="text" id="first_name" name="first_name" required>
+            </div>
+                <div class="line" id="last_name">
+                    <label for="lastname">Last Name</label>
+                    <input class="input" type="text" name="lastname" id="lastname" required>
+                </div>
+            </div>
+            <div id="second_line">
+                <div class="line" id="email">
+                    <label for="e_mail">Email</label>
+                    <input class="input" type="email" name="e_mail" id="e_mail" required>
+                </div>
+                <div class="line" id="phone">
+                    <label for="phone_number">Phone Number</label>
+                    <input class="input" type="tel" id="phone_number" name="phone_number" required>
+                </div>
+            </div>
+            <div id="third_line">
+                <div class="line" id="pass_word">
+                    <label for="password">Password</label>
+                    <input class="input" type="password" name="password" id="password" required>
+                </div>
+                <div class="line" id="confirm">
+                    <label for="confirm_pass">Comfirm Passowrd</label>
+                    <input class="input" type="password" name="confirm_pass" id="confirm_pass" required>
+                </div>
+            </div>
+            <button onclick="confirmpass()" type="submit">Create Account</button>
+            <div id="login">Already have an account? <a href="">Log in</a></div>
+        </form>
+    </div>
+    </div>
+    
+</body>
+</html>
