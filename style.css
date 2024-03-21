@@ -58,21 +58,24 @@ width: 50vw;
 #logo{
     border-radius: 20%;
     top: 5vh;
-    left: 40vw;
+    left: 35vw;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:rgba(11, 11, 11, .4);
     height: 15vh;
-    width: 20vw;
+    width: 30vw;
 }
 #logo img{
     height: 10vh;
     width: 10vw;
 }
 form{
+    border: .3vh solid lightgoldenrodyellow;
     margin-top: 5vh;
+    padding: 3vh;
+    border-radius: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
