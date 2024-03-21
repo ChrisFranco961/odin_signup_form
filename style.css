@@ -102,5 +102,39 @@ button{
     border-color:darkgreen;
 }
 
+@media only screen and (min-width:800px) {
+*{
+    font-size: 2vh;
+}
+#left img{
+    position:relative;
+    width: 50vw;
+    height: 100vh;
 
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+#right{
+border: 0px;
+margin-top: 20vh;
+
+}
+#form_container{
+    margin-top: 10vh;
+
+}
+
+#logo img{
+    height: 20vh;
+    width: 12vw;
+}
+#logo{
+    position: absolute;
+    height: 30vh;
+    width: 15vw;
+    left: 17.5vw;
+}
+}
 
