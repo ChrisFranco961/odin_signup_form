@@ -2,10 +2,10 @@
 function confirmpass(){
     let password=document.getElementById('password')
 let confirm=document.getElementById('confirm_pass')
-    if( password!=confirm){
-        password.setCustomValidity('Passwords do not match');
+    if( password.value==confirm.value){
+        password.setCustomValidity('');
     }else {
-        password.setCustomValidity('')
+        password.setCustomValidity('Passwords do not match')
     }
 }
 
